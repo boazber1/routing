@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<div class="main-app">
+  <div class="top-bar">
+    <a routerLink="/home" routerLinkActive="active">Home</a>
+    <a routerLink="/about" routerLinkActive="active">About</a>
+  </div>
+  <router-outlet class="route-content"></router-outlet>
+</div>
+
+
